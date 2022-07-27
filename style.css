@@ -1,0 +1,199 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navtool{
+    min-height: 70px;
+    width: auto;
+    display: flex;
+    position: sticky;
+ top: 0px;
+}
+ .navbar{
+
+  min-height: 100vh;
+   width:auto;
+   
+ }
+
+
+.background{
+  top: 0%;
+  background:rgba(0,0,0,0.8) url("laptop.jpg");
+  background-size: cover;
+  background-blend-mode: lighten;
+  overflow: hidden;
+}
+
+
+.nav-list{
+  display: flex;
+  width: 70%;
+}
+.nav-list li{
+  margin-top: 10px;
+ padding-right: 30px;
+ list-style: none;
+}
+.nav-list #hom{
+  margin-left: 80px;
+}
+.nav-list li a{
+  text-decoration:none;
+  font-size: 20px;
+  font-weight: bold;
+  color:rgb(0, 0, 0);
+}
+.nav-list li a:hover{
+  color: white;
+  transition: 0.5s;
+  text-decoration: underline;
+  text-decoration-color: aquamarine;
+}
+
+.navtool .rightNav{
+width: 30%;
+height: 25px;
+ margin-top:10px;
+text-align: right;
+padding-left: 10px;
+
+}
+
+.navtool .rightNav input{
+  width: 200px;
+  height: 20px;
+  margin-left:50%;
+  
+}
+ #logo img{
+   height: 55px;
+   width: 70px;
+   border: 2px solid rgb(4, 249, 241);
+   border-radius: 100%;
+   margin-left: 150px;
+   margin-top: 200px;
+ }
+ .navbar #para{
+   font-family: cursive;
+   font-size: 21px;
+   margin-top: -60px;
+   margin-left: 240px;
+ }
+ .navbar #para:hover{
+   color: aquamarine;
+   transition: 0.5s;
+ }
+ .compara{
+   margin: 50px;
+   padding: 5px;
+ }
+ .intro img{
+   height: 250px;
+   width: 350px;
+   display: flex;
+   align-items: center;
+   margin: auto;
+
+ }
+ .contact{
+   height: 500px;
+   width: auto;
+   background-color: #0b239c;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin:auto;
+ }
+ .form{
+   margin-top: 25px;
+   width: 300px;
+   height: 25px;
+   display: block;
+   font-size: 15px;
+   border: 2px solid white;
+   border-radius: 50px;
+   
+ }
+#bt:hover{
+  background-color: aquamarine;
+  transition-delay: 0.5s;
+  transition-duration: 1s;
+}
+#contimg{
+  height: 150px;
+  width: 200px;
+}
+.text-center{
+  height:40px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-left: 40%;
+  background-color: black;
+  color: white;
+  margin: auto;
+}
+.burger{
+ display: none;
+}
+.line{
+  width: 35px;
+  background-color: white;
+  height: 4px;
+  margin: 3px 3px;
+}
+@media only screen and (max-width:1200px)
+{
+  .navbar #logo img{
+    height: 30px;
+    width: 50px;
+    border: 2px solid rgb(4, 249, 241);
+    border-radius: 100%;
+    margin-left: 160px;
+    margin-top: 240px;
+  }
+  .navbar #para{
+    font-family: cursive;
+   font-size: 21px;
+   margin-top: -30px;
+   margin-left: 250px;
+  }
+  .navtool{
+    min-height: 120px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+
+ top: 0px;
+  }
+  .navtool .rightNav input{
+    margin-left: 70px;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+  }
+
+  .nav-list{
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+  }
+  .nav-list #hom{
+    margin-left: 0px;
+  }
+  .nav-list li{
+    margin-top: 10px;
+   padding-right: 30px;
+   list-style: none;
+  }
+  .burger{
+    display: block;
+  }
+  h-nav{
+    min-height:20px ;
+  }
+
+}
